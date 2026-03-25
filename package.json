@@ -33,4 +33,11 @@
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }
+  
+}
+
+"homepage": "https://jaydeepnegi.github.io/ajay-musicApp",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 }
